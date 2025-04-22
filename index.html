@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow - Fundraising Opportunities</title>
+  <link rel="stylesheet" href="https://use.typekit.net/ktg1upz.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ktg1upz.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ktg1upz.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ktg1upz.css">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <header>
+    
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#"><img src="images/Black Grey Simple Grow Logo.svg" alt="logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#hero">Browse</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#plans">Plans</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <img src="images/dollars.jpg" alt="hero" />
+        <div class="about-text typing-text">
+          <h1>Fundraising has never been easier</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <p>Many <span>fundraising opportunities</span> offered by companies are buried deep within their websites,
+         making them difficult to find and access. This <span>lack of visibility</span> creates a barrier for 
+         nonprofits, student organizations, and community groups seeking support. <span><b>GROW</b></span> is a centralized website that aggregates
+         and organizes these fundraising opportunities, making them <span>easily searchable</span> and accessible to organizations in need of 
+         funding.</p>
+    </section>
+
+
+    <section class="hero" id="hero">
+        <div class="hero-container">
+          <h2>Find Fundraising Programs That Match You</h2>
+          <input type="text" placeholder="Search for opportunities...">
+          <button type="submit">Search</button>
+          <div class="filters">
+            <select>
+              <option value="" disabled selected>Category</option>
+              <option value="Corporate Grant">Corporate Grant</option>
+              <option value="Crowdfunding">Crowdfunding</option>
+              <option value="Local Fundraiser">Local Fundraiser</option>
+            </select>
+            <select>
+              <option value="" disabled selected>Location</option>
+              <option value="Texas">Texas</option>
+              <option value="National">National</option>
+            </select>
+            <select>
+              <option value="" disabled selected>Organization Type</option>
+              <option value="Student Org">Student Org</option>
+              <option value="Nonprofit">Nonprofit</option>
+              <option value="Community Group">Community Group</option>
+            </select>
+            <select>
+              <option value="" disabled selected>Deadline</option>
+              <option value="Open">Open</option>
+              <option value="Closed">Closed</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+    <section class="main">
+        <div class="main-container">
+            <div class="sidebar">
+                <h3>Filter</h3>
+                <label><input type="checkbox" class="filter-checkbox" value="Corporate"> Corporate Grants</label><br>
+                <label><input type="checkbox" class="filter-checkbox" value="Local"> Local Fundraisers</label><br>
+                <label><input type="checkbox" class="filter-checkbox" value="Crowdfunding"> Crowdfunding</label><br>
+                <label><input type="checkbox" class="filter-checkbox" value="Education"> Education-specific</label><br>
+                <label><input type="checkbox" class="filter-checkbox" value="Open"> Submission Open Now</label>
+            </div>
+
+            <!-- <div class="results">
+                <div class="card hidden" data-category="Corporate">
+                  <h3>Target Circle Community Grant</h3>
+                  <p>Location: Texas only</p>
+                  <p>Category: Corporate Grant</p>
+                  <p>Deadline: May 30, 2025</p>
+                  <a href="" target="_blank"><button>Apply Now</button></a>
+                </div>
+                <div class="card hidden" data-category="Crowdfunding, Education">
+                  <h3>GoFundMe Education Challenge</h3>
+                  <p>Location: National</p>
+                  <p>Category: Crowdfunding</p>
+                  <p>Deadline: Rolling</p>
+                  <a href="" target="_blank"><button>Apply Now</button></a>
+                </div>
+                <div class="card hidden" data-category="Education, Local">
+                  <h3>Austin Education Fund</h3>
+                  <p>Location: Austin</p>
+                  <p>Category: Local</p>
+                  <p>Deadline: June 1, 2025</p>
+                  <a href="" target="_blank"><button>Apply Now</button></a>
+                </div>
+            </div> -->
+            <div class="results" id="results-container">
+
+            </div>
+
+            
+        </div>
+    </section>
+
+    
+    <section class="pricing-section">
+      <div class="pricing-card basic">
+        <h2>Basic Listing</h2>
+        <p class="price">$0</p>
+        <ul>
+          <li>Add 1 fundraising opportunity to the site</li>
+          <li>Standard visibility in search results</li>
+          <li>No analytics or custom branding</li>
+          <li>Great for companies just starting out</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+    
+      <div class="pricing-card featured" id="plans">
+        <h2>Featured Listing</h2>
+        <p class="price">$49/mo</p>
+        <ul>
+          <li>Top of search results</li>
+          <li>Highlighted with “Featured” tag</li>
+          <li>Logo + description in homepage carousel</li>
+          <li>Included in monthly newsletter</li>
+          <li>Engagement insights (views & clicks)</li>
+        </ul>
+        <button>Upgrade</button>
+      </div>
+    
+      <div class="pricing-card premium">
+        <h2>Premium Sponsor</h2>
+        <p class="price">$199/mo</p>
+        <ul>
+          <li>Unlimited featured opportunities</li>
+          <li>Logo on homepage + sponsor spotlight</li>
+          <li>Priority in newsletters & suggestions</li>
+          <li>Advanced engagement analytics</li>
+          <li>Quarterly feedback reports</li>
+          <li>Option to host webinars/info sessions</li>
+        </ul>
+        <button>Become Sponsor</button>
+      </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Grow. All rights reserved. | Contact | Resources | Privacy</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script/script.js"></script>
+
+</body>
+</html>

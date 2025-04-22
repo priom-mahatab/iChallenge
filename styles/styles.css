@@ -1,0 +1,297 @@
+body {
+    font-family: 'degular', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    z-index: 1000;
+    padding: 0;
+}
+
+.nav-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 2em;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1em;
+    margin: 0;
+    padding: 0 2em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.logo img {
+    height: 180px;
+    width: auto;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #048c4b;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 4em;
+    gap: 1.5em;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about-text {
+    position: absolute;
+    left: 5%;
+    bottom: 25%; /* or use top: 50% with transform if you want vertical center */
+    max-width: 600px;
+    z-index: 10;
+    font-family: 'coranto';
+    font-size: clamp(1.5rem, 5vw, 3em);
+    color: rgb(221, 248, 214);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+span {
+    color: #048c4b;
+    font-weight: bold;
+}
+
+.about-container {
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+.about-section p {
+    font-family: 'degular';
+    /* font-size: 1em; */
+    line-height: 2em;
+}
+
+.about-section img {
+    width: 100%;
+    max-width: 1600px;
+    /* height: 700px; */
+    display: block;
+    opacity: 90%;
+}
+
+.hero {
+    background-color: #048c4b;
+    padding: 3em;
+    text-align: center;
+}
+
+.hero-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: rgb(221, 248, 214);
+}
+
+select {
+    border: none;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 0.6em;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    margin: 0.8em;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 1em;
+  }
+
+button {
+    padding: 0.6em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: rgb(221, 248, 214);
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.filters select {
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.main {
+    padding: 0 4em;
+}
+
+.main-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.sidebar label {
+    display: block;
+    margin-bottom: 0em;
+
+}
+
+.results {
+    width: 75%;
+    padding-left: 2em;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.card button {
+    background-color: #048c4b;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.pricing-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4em 2em;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.pricing-section h2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.pricing-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2em;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+  
+.pricing-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+  
+.pricing-card .price {
+    font-size: 2em;
+    font-weight: bold;
+    color: #048c4b;
+    margin-bottom: 1em;
+}
+  
+.pricing-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2em;
+}
+  
+.pricing-card ul li {
+    margin-bottom: 0.75em;
+    position: relative;
+    padding-left: 1.5em;
+}
+  
+.pricing-card ul li::before {
+    content: '✔';
+    color: #048c4b;
+    position: absolute;
+    left: 0;
+}
+  
+.pricing-card button {
+    background-color: #048c4b;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+  
+.pricing-card button:hover {
+    background-color: #036f3a;
+}
