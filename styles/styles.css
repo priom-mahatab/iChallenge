@@ -226,22 +226,22 @@ footer {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 4em 2em;
+    padding: 2em 2em;
     background-color: #f9f9f9;
     flex-wrap: wrap;
 }
 
-.pricing-section h2 {
+/* .pricing-section h2 {
     display: flex;
     justify-content: center;
-}
+} */
   
 .pricing-card {
     background: white;
     border-radius: 12px;
     padding: 2em;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 350px;
     transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
   
